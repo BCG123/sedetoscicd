@@ -13,6 +13,7 @@ pipeline {
      steps {
         echo 'Testing...'
         echo 'Adding a new testing step to the Test stage'
+        echo 'Adding a new testing step to the Test stage'
      }
    }
    stage('Deploy') {
